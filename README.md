@@ -4,11 +4,13 @@ passwd jellyfin
 
 su - jellyfin
 
+Ubuntu assigns sh as the default shell, change the shell to bash to make it easier, "chsh -s /usr/bin/bash"
+
 Create a new folder in the jellyfin directory EX: docker
 
 cd into that directory
 
-mkdir for cache, media, media2, config
+mkdir for cache, media, media2, delugecfg, jellyfincfg
 
 wget https://raw.githubusercontent.com/connor0329/Docker-Project/refs/heads/main/docker-compose.yml
 
