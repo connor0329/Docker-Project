@@ -5,7 +5,7 @@ services:
     user: UID:GID
     network_mode: 'host'
     volumes:
-      - /home/jellyfin/docker/config:/config
+      - /home/jellyfin/docker/jellyfincfg:/config
       - /home/jellyfin/docker/cache:/cache
       - type: bind
         source: /home/jellyfin/docker/media
@@ -30,7 +30,7 @@ services:
       - TZ=Etc/UTC
       - DELUGE_LOGLEVEL=error 
     volumes:
-      - /home/jellyfin/docker/config:/config
+      - /home/jellyfin/docker/delugecfg:/config
       - /home/jellyfin/docker/media:/downloads
     ports:
       - 8112:8112
