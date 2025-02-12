@@ -16,3 +16,4 @@ Edit that file to change the gid, and uid to match the jellyfin's user gid and u
 
 Run "docker-compose up -d"
 
+Launch a web browser for, deluge type "hostname:8112" for jellyfin type "hostname:8096"
