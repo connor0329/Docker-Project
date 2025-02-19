@@ -21,7 +21,7 @@ sudo chmod 700 "$SSH_DIR"
 sudo chown "$USER_NAME":"$USER_NAME" "$SSH_DIR"
 
 # Copy the public key from the repository (modify as needed)
-sudo cp ~linux/public-keys/id_rsa.pub "$AUTHORIZED_KEYS"
+sudo cp ~Docker-Project/linux/public-keys/id_rsa.pub "$AUTHORIZED_KEYS"
 
 # Set permissions for authorized_keys
 
