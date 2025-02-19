@@ -20,3 +20,4 @@ Run "docker-compose up -d"
 
 Launch a web browser for, deluge type "hostname:8112" for jellyfin type "hostname:8096"
 docker01 configuration
+hostname
